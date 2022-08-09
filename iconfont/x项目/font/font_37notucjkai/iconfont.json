@@ -1,0 +1,23 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1276869",
+      "name": "博客_blogger3",
+      "font_class": "bokeblogger3",
+      "unicode": "e722",
+      "unicode_decimal": 59170
+    },
+    {
+      "icon_id": "10562720",
+      "name": "Medium, logo",
+      "font_class": "Mediumlogo",
+      "unicode": "e6b6",
+      "unicode_decimal": 59062
+    }
+  ]
+}

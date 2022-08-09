@@ -1,0 +1,42 @@
+body{
+  background-color: #f1f1f1;
+}
+*{
+  box-sizing: border-box;
+}
+.no-decoration{
+  text-decoration: none;
+}
+/* 覆盖bootstrap 样式 */
+.navbar-expand-md .navbar-collapse {
+  justify-content: flex-end;
+}
+.navbar-dark .navbar-nav .show > .nav-link, .navbar-dark .navbar-nav .nav-link.active {
+  color: yellow;
+}
+.navbar-toggler:focus{
+  box-shadow: 0 0 0 0;
+}
+/* 导航hover背景 */
+.navbar-nav>a{
+  position: relative;
+  z-index: 1;
+}
+.navbar-nav>a::after{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 50%;
+  display: block;
+  width: 0;
+  height: 100%;
+  z-index: -1;
+  background-color: skyblue;
+  transition: all 0.5s; 
+  /* 过渡 */
+}
+.navbar-nav>a:hover::after{
+  display: block;
+  width: 100%;
+  left: 0;
+}
